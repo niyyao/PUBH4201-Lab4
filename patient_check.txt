@@ -1,0 +1,9 @@
+Patient checked: TCGA-05-4244
+
+Individual mutation records:
+gene_symbol variant_classification protein_change
+       KRAS      Missense_Mutation         p.G12C
+
+Feature-table gene counts:
+ TP53_count  KRAS_count  EGFR_count  STK11_count  KEAP1_count
+          0           1           0            0            0

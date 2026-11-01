@@ -1,0 +1,20 @@
+Validation results
+Patients before joins: 566
+Rows after clinical LEFT JOIN: 566
+Gene query: expected 2830 rows; actual 2830
+Non-Silent target-gene mutations: 746
+Patients after Python pivot: 566
+Patients after final merge: 566
+Site-stage query: expected 142 rows; actual 142
+Patients across site-stage groups: 566
+
+Missing clinical values retained as NA:
+sex: 52
+age_at_diagnosis: 71
+stage: 54
+tissue_source_site: 0
+tmb_nonsynonymous: 0
+
+Gene counts of 0 mean no qualifying mutation record was found.
+They do not prove that a tumor is biologically mutation-free.
+Missing clinical values remain NA; no patients were dropped.
